@@ -46,9 +46,10 @@ item2
 item3
 ```
 
-**XML** (eXtensible Markup Language)
+**XML** (eXtensible Markup Language)  
+<https://developer.mozilla.org/en-US/docs/Glossary/XML>
 
-- Древовидная структуру, но теги произвольны (в отличие от HTML)
+- Древовидная структура, но теги произвольны (в отличие от HTML)
 - Часто используется в конфигурационных файлах, протоколах.
 - Формат для хранения/передачи информации
 
@@ -60,7 +61,8 @@ item3
   </anal>
 ```
 
-**JSON** (JavaScript Object Notation)
+**JSON** (JavaScript Object Notation)  
+<https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON>
 
 - Структурирован и компактен
 - Используется повсеместно в API, для JS, хранении конфигурации и т.д.
@@ -77,10 +79,11 @@ item3
   }
 ```
 
-**HTML** — HyperText Markup Language
+**HTML** — HyperText Markup Language  
+<https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML>
 
-- Eщё один способ структурировать данные
-- Формат разметки "человеко-браузеро-ориентированный", поддерживается всеми браузерами, имеет фиксированный набор тэгов, в отличии от XML. Валидность определяется спецификацией W3C.
+- Ещё один способ структурировать данные
+- Формат разметки "человеко-браузеро-ориентированный", поддерживается всеми браузерами, имеет фиксированный набор тэгов, в отличие от XML. Валидность определяется спецификацией W3C.
 - Используется для представления данных
 
 ```html
@@ -133,10 +136,12 @@ item3
 - Почему важно использовать правильные заголовки (`<h1>`, `<h2>`...)?
 
 ### 4. Почему простой язык разметки стал фундаментом фронтенда
+<https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works>
 
 HTML задумывался как простая разметка, но со временем оброс слоями — CSS, потом JS, потом фреймворки, потом SPA. И в итоге мы строим целые приложения на «документе». Это как если бы на туалетной бумаге начали печатать Библию при этом обмазавшись говном.
 
 ### 5. DOM, CSS и JS
+<https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction>
 
 #### DOM — структура
 
@@ -156,9 +161,10 @@ const node = document.getElementById("example");
 console.log(node.innerText); // Hello
 ```
 
-#### CSS — оформление
+#### CSS — оформление  
+<https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS>
 
-- CSS — декларативный язык для описания внешнего вид DOM-нод, это просто способ массово задать свойства нодам, рендеринг которого поддерживается всеми бразуерами.
+- CSS — декларативный язык для описания внешнего вид DOM-нод, это просто способ массово задать свойства нодам, рендеринг которого поддерживается всеми браузерами.
 - Есть альтернативные подходы к рендерингу (Canvas, SVG, WebGL), но все зависит от потребностей. CSS удобен своей каскадностью.
 - Стилизация бывает через атрибуты (например, `fill="red"` в SVG) или через CSS — важно понимать разницу между DOM-свойствами и CSS-правилами.
 
@@ -182,7 +188,8 @@ div[data-x] {}  /* по атрибуту */
 <p style="color: red;"></p>     <!-- инлайновый -->
 ```
 
-#### JavaScript — поведение
+#### JavaScript — поведение  
+<https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript>
 
 JS делает страницу интерактивной.
 
@@ -214,7 +221,8 @@ JS делает страницу интерактивной.
 - Когда исполняется JS? Что такое `DOMContentLoaded`?
 - Что такое события? Как работает `addEventListener`?
 
-### 6. Git и GitHub
+### 6. Git и GitHub  
+<https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/GitHub>
 
 - Что такое система контроля версий? Зачем она нужна?
 - Установка Git, базовая настройка (`git config`)
